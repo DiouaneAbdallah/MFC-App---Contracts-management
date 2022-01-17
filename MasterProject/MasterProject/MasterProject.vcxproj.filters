@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\MasterProject.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MasterProject.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Client_ico.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rechercher.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\research.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\research1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\not_found.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\invilide.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\warning.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sans.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\parfait.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\client.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\clients.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\client.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\man.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\man.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\man (1).bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\man__2__AT9_icon.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\resume_a2T_icon.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\clientico.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icoclient.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icocontract.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icocontrat.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\technical-support - Copie.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\poste.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Entreprise.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\job.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Home.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon18.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\power_off.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\database.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\info.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\test.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\test.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\test.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Untitled2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\left.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\right.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FirstSlide.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\test2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\slide1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\desk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Slide.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\employee.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\businessman.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\add.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\del.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon26.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\del2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\del (2).ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\delete.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\up.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\like.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\addent.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\delent.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\upent.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\addpost.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\delpost.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon35.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\uppost.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\AboutUs.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\deskVF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\deskVF2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MasterProject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterProjectDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Poste.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Contrat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entreprise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Accueil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstSlide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MasterProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterProjectDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Poste.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Contrat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entreprise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Accueil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstSlide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MasterProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

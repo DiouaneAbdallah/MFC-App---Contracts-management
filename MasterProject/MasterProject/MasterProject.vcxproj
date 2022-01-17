@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D96D3465-4BB8-43B0-AF75-AAEA4E49227C}</ProjectGuid>
+    <RootNamespace>MasterProject</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\AboutUs.bmp" />
+    <None Include="res\add.ico" />
+    <None Include="res\addent.ico" />
+    <None Include="res\addpost.ico" />
+    <None Include="res\businessman.bmp" />
+    <None Include="res\client.ico" />
+    <None Include="res\client.png" />
+    <None Include="res\clientico.ico" />
+    <None Include="res\clients.png" />
+    <None Include="res\Client_ico.ico" />
+    <None Include="res\database.ico" />
+    <None Include="res\del (2).ico" />
+    <None Include="res\del.ico" />
+    <None Include="res\del2.ico" />
+    <None Include="res\delent.ico" />
+    <None Include="res\delete.ico" />
+    <None Include="res\delpost.ico" />
+    <None Include="res\desk.bmp" />
+    <None Include="res\deskVF.bmp" />
+    <None Include="res\deskVF2.bmp" />
+    <None Include="res\employee.bmp" />
+    <None Include="res\Entreprise.ico" />
+    <None Include="res\FirstSlide.bmp" />
+    <None Include="res\Home.ico" />
+    <None Include="res\icoclient.ico" />
+    <None Include="res\icocontract.ico" />
+    <None Include="res\icocontrat.ico" />
+    <None Include="res\icon.ico" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\icon18.ico" />
+    <None Include="res\icon2.ico" />
+    <None Include="res\icon26.ico" />
+    <None Include="res\icon35.ico" />
+    <None Include="res\info.ico" />
+    <None Include="res\invilide.ico" />
+    <None Include="res\job.ico" />
+    <None Include="res\left.ico" />
+    <None Include="res\like.ico" />
+    <None Include="res\man (1).bmp" />
+    <None Include="res\man.bmp" />
+    <None Include="res\man.jpg" />
+    <None Include="res\man__2__AT9_icon.ico" />
+    <None Include="res\MasterProject.ico" />
+    <None Include="res\MasterProject.rc2" />
+    <None Include="res\not_found.ico" />
+    <None Include="res\parfait.ico" />
+    <None Include="res\poste.bmp" />
+    <None Include="res\power_off.ico" />
+    <None Include="res\rechercher.ico" />
+    <None Include="res\research.ico" />
+    <None Include="res\research1.bmp" />
+    <None Include="res\resume_a2T_icon.ico" />
+    <None Include="res\right.ico" />
+    <None Include="res\sans.bmp" />
+    <None Include="res\Slide.bmp" />
+    <None Include="res\slide1.bmp" />
+    <None Include="res\technical-support - Copie.png" />
+    <None Include="res\test.bmp" />
+    <None Include="res\test.ico" />
+    <None Include="res\test.png" />
+    <None Include="res\test2.bmp" />
+    <None Include="res\Untitled2.bmp" />
+    <None Include="res\up.ico" />
+    <None Include="res\upent.ico" />
+    <None Include="res\uppost.ico" />
+    <None Include="res\warning.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Accueil.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Contrat.h" />
+    <ClInclude Include="Entreprise.h" />
+    <ClInclude Include="FirstSlide.h" />
+    <ClInclude Include="MasterProject.h" />
+    <ClInclude Include="MasterProjectDlg.h" />
+    <ClInclude Include="Poste.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Accueil.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Contrat.cpp" />
+    <ClCompile Include="Entreprise.cpp" />
+    <ClCompile Include="FirstSlide.cpp" />
+    <ClCompile Include="MasterProject.cpp" />
+    <ClCompile Include="MasterProjectDlg.cpp" />
+    <ClCompile Include="Poste.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MasterProject.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="MasterProject.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
